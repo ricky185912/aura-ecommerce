@@ -97,36 +97,6 @@ export default function Footer() {
               <li><Link href="/category/haircare" className="hover:text-white transition-colors duration-300 inline-block hover:translate-x-0.5">Haircare</Link></li>
             </ul>
           </div>
-
-          {/* Support Column */}
-          <div className="text-center sm:text-left">
-            <h3 className="font-semibold text-white mb-3 sm:mb-4 text-base sm:text-lg">Support</h3>
-            <ul className="space-y-2 text-xs sm:text-sm text-white/70">
-              <li><Link href="/help" className="hover:text-white transition-colors duration-300 inline-block hover:translate-x-0.5">Help Center</Link></li>
-              <li><Link href="/returns" className="hover:text-white transition-colors duration-300 inline-block hover:translate-x-0.5">Returns Policy</Link></li>
-              <li><Link href="/shipping" className="hover:text-white transition-colors duration-300 inline-block hover:translate-x-0.5">Shipping Info</Link></li>
-              <li><Link href="/contact" className="hover:text-white transition-colors duration-300 inline-block hover:translate-x-0.5">Contact Us</Link></li>
-              <li><Link href="/faq" className="hover:text-white transition-colors duration-300 inline-block hover:translate-x-0.5">FAQs</Link></li>
-            </ul>
-          </div>
-
-          {/* Newsletter Column */}
-          <div className="text-center sm:text-left">
-            <h3 className="font-semibold text-white mb-3 sm:mb-4 text-base sm:text-lg">Stay Updated</h3>
-            <p className="text-xs sm:text-sm text-white/70 mb-3 sm:mb-4">
-              Get 10% off your first order
-            </p>
-            <div className="flex flex-col xs:flex-row gap-2">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="flex-1 px-3 sm:px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl text-white text-xs sm:text-sm placeholder:text-white/50 focus:outline-none focus:border-white/40 transition-all"
-              />
-              <button className="px-4 sm:px-5 py-2 bg-white text-raspberry-700 rounded-xl text-xs sm:text-sm font-medium hover:bg-white/90 hover:scale-105 transition-all">
-                Subscribe
-              </button>
-            </div>
-          </div>
         </div>
         
         <div className="pt-6 sm:pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 text-center text-[11px] sm:text-sm text-white/50">
